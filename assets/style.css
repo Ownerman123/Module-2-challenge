@@ -1,0 +1,35 @@
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+body{
+
+    margin: 0px;
+    background-color:  rgb(159 187 247);
+}
+
+header{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1c675;
+
+}
+
+header nav {
+    float: end;
+    justify-self: right; 
+    
+    padding: 0px 20px 0px 0px;
+
+}
+
+heaer nav a {
+
+    
+    color: rgb(64, 121, 243);
+}

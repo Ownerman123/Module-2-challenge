@@ -14,6 +14,7 @@ body{
 header{
     display: flex;
     
+    
     align-items: center;
     justify-content: space-between;
     background-color: #f1c675;
@@ -21,15 +22,48 @@ header{
 }
 
 header nav {
+    display: flex;
     float: end;
     justify-self: right; 
     
-    padding: 0px 20px 0px 0px;
+    padding: 0px 20px 0px 10px;
 
 }
 
-heaer nav a {
+header nav a {
+
+    padding: 5px 10px 5px 10px;
+    color: rgb(64, 121, 243);
+}
+
+section {
+
+    display: flex;
+    justify-content: start;
+}
+
+section h2 {
+    
+    float: left;
+}
+
+
+
+@media  screen and (max-width: 768px ) {
+
+    header {
+        float: end;
+        flex-direction: column;
+        justify-content: center; 
+        
+        padding: 0px 20px 0px 0px;
+    
+    }
+    header nav {
+
+        flex-direction: column;
+        justify-content: center;
+    }
 
     
-    color: rgb(64, 121, 243);
 }

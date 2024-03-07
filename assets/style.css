@@ -20,12 +20,16 @@ header{
     background-color: #f1c675;
 
 }
+header h1 {
+    margin-left: 10px;
+    font-size: 50px;
+    text-decoration: underline;
+}
 
 header nav {
     display: flex;
     float: end;
     justify-self: right; 
-    
     padding: 0px 20px 0px 10px;
 
 }
@@ -33,20 +37,110 @@ header nav {
 header nav a {
 
     padding: 5px 10px 5px 10px;
+    text-decoration: none;
     color: rgb(64, 121, 243);
 }
 
 section {
-
+    
     display: flex;
     justify-content: start;
 }
 
 section h2 {
     
-    float: left;
+    
+    font-size: 45px;
+    padding: 20px;
+    position: static;
+    min-width: 100px;
+    width: 25%;
+    border-right: 5px solid black;
+    margin-right: 5px;
+    
+
 }
 
+section p {
+    padding: 10px;
+    padding: auto;
+    
+
+}
+
+#work-section {
+    display: flex;
+    flex-direction: row;
+    
+
+
+}
+
+.uniform-imgs {
+
+    max-width: 300px;
+    max-height: 200px;
+
+}
+
+#work-images {
+    display: flex;
+    
+    
+    width: 100%;
+    height: auto;
+    
+}
+
+.w-imgs {
+    border: 5px solid black;
+    
+    
+}
+
+.w-imgs:hover {
+    /* box-shadow: 10px 10px grey; */
+    opacity: 0.5;
+
+}
+
+.img-container {
+    flex: 1 0 0 ;
+    position: relative;
+    width: 60%;
+    
+    margin: 0px 20px;
+}
+
+.img-container:hover .overlay {
+    opacity: 1;
+
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: orange;
+}
+
+.overlay-text {
+    color: blue;
+    font-size: 20px;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+
+
+}
 
 
 @media  screen and (max-width: 768px ) {
@@ -54,8 +148,7 @@ section h2 {
     header {
         float: end;
         flex-direction: column;
-        justify-content: center; 
-        
+        justify-content: center;  
         padding: 0px 20px 0px 0px;
     
     }
@@ -63,6 +156,15 @@ section h2 {
 
         flex-direction: column;
         justify-content: center;
+    }
+    header h1 {
+
+        margin: none;
+    }
+    section h2 {
+        
+        font-size: 25px;
+
     }
 
     

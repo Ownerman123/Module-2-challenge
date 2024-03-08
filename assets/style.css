@@ -70,7 +70,7 @@ section p {
 
 #work-section {
     display: flex;
-    flex-direction: row;
+    
     
 
 
@@ -78,16 +78,20 @@ section p {
 
 .uniform-imgs {
 
-    max-width: 300px;
-    max-height: 200px;
+    flex: 2 0 200px;
+    width: 300px;
+    height: 300px;
+    
+    border: 5px solid black;
 
 }
 
 #work-images {
     display: flex;
+    flex-wrap: wrap;
     
     
-    width: 100%;
+    width: 50%;
     height: auto;
     
 }
@@ -98,22 +102,19 @@ section p {
     
 }
 
-.w-imgs:hover {
-    /* box-shadow: 10px 10px grey; */
-    opacity: 0.5;
 
-}
 
 .img-container {
-    flex: 1 0 0 ;
-    position: relative;
-    width: 60%;
     
-    margin: 0px 20px;
+    position: relative;
+    justify-content: center;
+    
+    
+    margin: 20px 20px;
 }
 
 .img-container:hover .overlay {
-    opacity: 1;
+    opacity: .9;
 
 }
 .overlay {
@@ -123,15 +124,18 @@ section p {
     left: 0;
     right: 0;
     height: 100%;
-    width: 100%;
+    width: 310px;
     opacity: 0;
     transition: .3s ease;
     background-color: orange;
 }
 
 .overlay-text {
-    color: blue;
-    font-size: 20px;
+    color: rgb(64, 121, 243);;
+    background-color:  rgb(27, 50, 100);;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
     position: absolute;
     justify-content: center;
     align-content: center;

@@ -33,7 +33,7 @@ header h1 {
 
 header nav {
     display: flex;
-    float: end;
+    
     justify-self: right; 
     padding: 0px 20px 0px 10px;
 
@@ -96,6 +96,25 @@ section p {
     
 
 }
+section #contactme {
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+#contactme div {
+    display: inline-block;
+    align-content: center;
+    align-items: center;
+}
+
+#contactme p , #contactme a {
+    display: inline-block;
+    justify-content: center;
+    
+    padding: 20px; 
+    margin: 0px;
+}
+
 
 #work-section {
     display: flex;
@@ -201,6 +220,17 @@ section p {
         
         font-size: 25px;
 
+    }
+    #first-img {
+        flex-grow: 0;
+    }
+    .uniform-imgs {
+  
+        max-width: 300px;
+        
+        
+       
+    
     }
 
     

@@ -4,6 +4,11 @@
     
 
 }
+:root {
+    --headercolor: #f1c675;
+
+
+}
 
 body{
 
@@ -49,8 +54,20 @@ header nav a {
     
     background-size: cover;
     background-position: center;
+    position: relative;
 }
- 
+
+#hero-grad {
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(
+        rgba(246, 247, 247, 0.3) 0%,
+        rgba(159, 187, 247, 1) 100%
+      );
+    z-index: 2;
+}
+  
 
 section {
     
@@ -75,13 +92,14 @@ section h2 {
 
 section p {
     padding: 10px;
-    padding: auto;
+    
     
 
 }
 
 #work-section {
     display: flex;
+    justify-content: center;
     
     
 
@@ -89,10 +107,9 @@ section p {
 }
 
 .uniform-imgs {
-
+  
     flex: 2 0 200px;
-    width: 300px;
-    height: 300px;
+    
     
     border: 5px solid black;
 
@@ -103,7 +120,7 @@ section p {
     flex-wrap: wrap;
     
     
-    width: 50%;
+    width: 75%;
     height: auto;
     
 }
@@ -136,10 +153,10 @@ section p {
     left: 0;
     right: 0;
     height: 100%;
-    width: 310px;
+    width: 100%;
     opacity: 0;
     transition: .3s ease;
-    background-color: orange;
+    background-color:var(--headercolor);
 }
 
 .overlay-text {
@@ -156,6 +173,9 @@ section p {
     transform: translate(-50% ,-50%);
 
 
+}
+#first-img {
+    flex-grow: 2;
 }
 
 

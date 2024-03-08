@@ -41,6 +41,17 @@ header nav a {
     color: rgb(64, 121, 243);
 }
 
+.hero {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./imgs/cargame\ thumbnail.PNG");
+    
+    background-size: cover;
+    background-position: center;
+}
+ 
+
 section {
     
     display: flex;
@@ -53,8 +64,9 @@ section h2 {
     font-size: 45px;
     padding: 20px;
     position: static;
-    min-width: 100px;
-    width: 25%;
+    min-width: 120px;
+    max-width: 30%;
+
     border-right: 5px solid black;
     margin-right: 5px;
     

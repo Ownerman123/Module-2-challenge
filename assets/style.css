@@ -127,14 +127,12 @@ section #contactme {
 }
 
 .w-imgs {
-flex: 1 2 0%;
+
 width: 100%;
 height: 100%;
 min-width:  100px;
 min-height: 100px;
     border: 5px solid black;
-
-    
     
 }
 
@@ -143,11 +141,12 @@ min-height: 100px;
 .img-container {
 
     flex:1 0 30% ;
-    display: flex;
+    
     justify-content: center;
     
     position: relative;
     justify-content: center;
+   
     margin: 10px;
     
     

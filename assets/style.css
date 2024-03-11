@@ -73,6 +73,7 @@ section {
     
     display: flex;
     justify-content: start;
+    
 }
 
 section h2 {
@@ -92,6 +93,7 @@ section h2 {
 
 section p , section a {
     padding: 10px;
+    font-size: 20px;
     margin: 0px;
     
     
@@ -172,10 +174,10 @@ min-height: 100px;
 }
 .overlay {
     position: absolute;
-    top: 5px;
-    bottom: 5px;
-    left: 5px;
-    right: 5px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
     height: 100%;
     width: 100%;
     opacity: 0;

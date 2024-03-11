@@ -119,20 +119,21 @@ section #contactme {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-right: 10px;
     
     
     width: 75%;
-    height: auto;
+    
     
 }
 
 .w-imgs {
-
+border: 5px solid black;
 width: 100%;
 height: 100%;
 min-width:  100px;
 min-height: 100px;
-    border: 5px solid black;
+    
     
 }
 
@@ -140,14 +141,13 @@ min-height: 100px;
 
 .img-container {
 
-    flex:1 0 30% ;
+    flex:1 0 32% ;
     
-    justify-content: center;
     
     position: relative;
-    justify-content: center;
+    align-content: center;
    
-    margin: 10px;
+    margin: 20px;
     
     
     
@@ -159,10 +159,10 @@ min-height: 100px;
 }
 .overlay {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
     height: 100%;
     width: 100%;
     opacity: 0;
@@ -187,7 +187,8 @@ min-height: 100px;
 }
 #first-img {
     
-    flex: 1 0 100%;
+    flex: 1 1 90%;
+    max-width: 900px;
 }
 
 

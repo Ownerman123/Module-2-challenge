@@ -18,6 +18,8 @@ body{
 
 header{
     display: flex;
+    width: 100%;
+    
     
     
     align-items: center;
@@ -26,6 +28,8 @@ header{
 
 }
 header h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 10px;
     font-size: 50px;
     text-decoration: underline;
@@ -107,6 +111,7 @@ section p , section a {
 }
 
 #contactme h2 {
+    color: #f1c675;
     width: 30%;
 }
 
@@ -117,15 +122,15 @@ section p , section a {
     align-content: center;
     justify-content: space-between;
 }
+#contactdiv p, #contactdiv a {
+
+    color: #f1c675;
+}
 
 
 
 #work-section {
     display: flex;
-    
-    
-    
-
 
 }
 
@@ -204,6 +209,9 @@ min-height: 100px;
     
     flex: 1 1 90%;
     
+}
+footer {
+    background-color: #21077c;
 }
 
 

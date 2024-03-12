@@ -1,3 +1,5 @@
+/* Uniform styling */
+
 *{
 
     font-family: Arial, Helvetica, sans-serif;
@@ -15,6 +17,8 @@ body{
     margin: 0px;
     background-color:  rgb(159 187 247);
 }
+
+/* header styling */
 
 header{
     display: flex;
@@ -50,6 +54,8 @@ header nav a {
     color: rgb(64, 121, 243);
 }
 
+/* Hero image styling */
+
 .hero {
     height: 500px;
     width: 100%;
@@ -72,6 +78,7 @@ header nav a {
     z-index: 2;
 }
   
+/* styles for the sections of the main */
 
 section {
     
@@ -103,29 +110,7 @@ section p , section a {
     
 
 }
- #contactme {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#contactme h2 {
-    color: #f1c675;
-    width: 30%;
-}
-
-#contactdiv {
-    display: flex;
-    width: 70%;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-between;
-}
-#contactdiv p, #contactdiv a {
-
-    color: #f1c675;
-}
+ 
 
 
 
@@ -173,6 +158,8 @@ min-height: 100px;
     
 }
 
+/* overlays and thier animations */
+
 .img-container:hover .overlay {
     opacity: .9;
 
@@ -210,6 +197,32 @@ min-height: 100px;
     flex: 1 1 90%;
     
 }
+/* footer/contact section styling */
+
+#contactme {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contactme h2 {
+    color: #f1c675;
+    width: 30%;
+}
+
+#contactdiv {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+#contactdiv p, #contactdiv a {
+
+    color: #f1c675;
+}
+
 footer {
     background-color: #21077c;
 }

@@ -20,6 +20,7 @@ Learn about me and my work. Check out my stuff I think its pretty cool and im re
 
 ## Screenshot
 
+![portfolio-shot](https://github.com/Ownerman123/My-portfolio/assets/156541621/7dedc023-52dd-49b8-8ced-1d11ae69f9c2)
 
 ## License
 
